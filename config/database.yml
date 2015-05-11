@@ -1,0 +1,24 @@
+
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  host: localhost
+  port: 5432 
+  encoding: utf8
+  database: flashcards_db
+  username: oleg
+  password: 20_mydb_15
+
+development:
+  <<: *default
+  database: flashcards_db
+
+
+test:
+  <<: *default
+  database: flashcards2_db
+
+production:
+  <<: *default
+  database: flashcards3_db
