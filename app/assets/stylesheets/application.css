@@ -1,5 +1,57 @@
 
+.navbar:after {
+    clear: both;
+}
+.navbar:after {
+    clear: both;
+}
+.navbar:before, .navbar:after {
+    display: table;
+    content: " ";
+}
+.navbar:before, .navbar:after {
+    display: table;
+    content: " ";
+}
 
+.bs-example .navbar:last-child {
+    margin-bottom: 0px;
+}
+.bs-example > p:last-child, .bs-example > ul:last-child, .bs-example > ol:last-child, .bs-example > blockquote:last-child, .bs-example > .form-control:last-child, .bs-example > .table:last-child, .bs-example > .navbar:last-child, .bs-example > .jumbotron:last-child, .bs-example > .alert:last-child, .bs-example > .panel:last-child, .bs-example > .list-group:last-child, .bs-example > .well:last-child, .bs-example > .progress:last-child, .bs-example > .table-responsive:last-child > .table {
+    margin-bottom: 0px;
+}
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+    width: 150px;
+}
+.navbar {
+    border-radius: 4px;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    line-height: 1.42857;
+    color: #333;
+}
+html {
+    font-size: 62.5%;
+}
+html {
+    font-family: sans-serif;
+}
 
 
 /* MISC
